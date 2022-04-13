@@ -14,3 +14,71 @@ a {
 * {
   box-sizing: border-box;
 }
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+/* custom css  */
+.nav {
+  height: 50px;
+  width: 100%;
+  background: wheat;
+}
+
+.mainboard {
+  height: auto;
+  width: 80%;
+  background: lightgray;
+  float: left;
+}
+.sideboard {
+  height: 400px;
+  width: 20%;
+  background: lightgray;
+  float: left;
+}
+
+.url {
+  height: auto;
+  background: whitesmoke;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid gray;
+  word-wrap: break-word;
+  cursor: pointer;
+}
+
+.collection {
+  border: dashed black;
+  padding: 20px;
+  margin: 10px;
+}
+
+.collectionTitle {
+  font-weight: 600;
+  font-size: larger;
+  text-decoration: underline;
+}
+
+.dropUrl {
+  width: 15%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  background: darkgray;
+  text-align: center;
+}
