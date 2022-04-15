@@ -2,17 +2,21 @@
   "name": "airtribe",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://priyankchopra2.github.io",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@chakra-ui/react": "^1.8.8",
     "@emotion/react": "^11",
     "@emotion/styled": "^11",
     "framer-motion": "^6",
+    "gh-pages": "^3.2.3",
     "next": "12.1.4",
     "react": "18.0.0",
     "react-dom": "18.0.0"
